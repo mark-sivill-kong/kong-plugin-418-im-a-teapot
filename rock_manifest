@@ -1,0 +1,17 @@
+rock_manifest = {
+   doc = {
+      LICENSE = "e3fc50a88d0a364313df4b21ef20c29e",
+      ["README.md"] = "13c5ad0aac04005adbc0f1545533ceb8"
+   },
+   ["kong-plugin-418-im-a-teapot-3.0.0-1.rockspec"] = "31581b5d6d9484d59a1d50b58e5ed8bf",
+   lua = {
+      kong = {
+         plugins = {
+            ["418-im-a-teapot"] = {
+               ["handler.lua"] = "fcac5e700391737f6855722ecc3f0ff8",
+               ["schema.lua"] = "6f1bdd171d54f1fd24d3929555ed127f"
+            }
+         }
+      }
+   }
+}
